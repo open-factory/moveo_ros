@@ -1,0 +1,3 @@
+roslaunch moveo_moveit_config demo.launch
+rosrun rosserial_python serial_node.py /dev/ttyUSB0 #ttyACM0
+rosrun moveo_moveit moveit_convert
